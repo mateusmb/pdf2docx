@@ -3,11 +3,11 @@
 # working directories and files
 #
 TOPDIR		:=$(shell pwd)
-SRC			:=$(TOPDIR)/pdf2docx
+SRC			:=$(TOPDIR)/pdf2docxnogui
 BUILD		:=$(TOPDIR)/build
 DOCSRC		:=$(TOPDIR)/doc
 TEST		:=$(TOPDIR)/test
-CLEANDIRS	:=.pytest_cache pdf2docx.egg-info dist
+CLEANDIRS	:=.pytest_cache pdf2docxnogui.egg-info dist
 
 # pip install sphinx_rtd_theme
 

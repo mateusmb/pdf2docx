@@ -105,7 +105,7 @@ class Block(Element):
     def parse_horizontal_spacing(self, bbox, *args):
         """Set left alignment, and calculate left space. 
         
-        Override by :obj:`pdf2docx.text.TextBlock`.
+        Override by :obj:`pdf2docxnogui.text.TextBlock`.
 
         Args:
             bbox (fitz.rect): boundary box of this block.
@@ -166,7 +166,7 @@ class Block(Element):
 
 
     def is_flow_layout(self, *args):
-        ''' Check whether flow layout, True by default. Override in :obj:`pdf2docx.text.TextBlock`.'''
+        ''' Check whether flow layout, True by default. Override in :obj:`pdf2docxnogui.text.TextBlock`.'''
         return True
 
 

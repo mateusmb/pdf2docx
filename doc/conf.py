@@ -12,12 +12,12 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath("../pdf2docx/"))
+sys.path.insert(0, os.path.abspath("../pdf2docxnogui/"))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'pdf2docx'
+project = 'pdf2docxnogui'
 copyright = '2021, dothinking'
 author = 'dothinking'
 

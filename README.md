@@ -1,10 +1,10 @@
-# pdf2docx 
+# pdf2docxnogui 
 
 ![python-version](https://img.shields.io/badge/python->=3.6-green.svg)
-[![codecov](https://codecov.io/gh/dothinking/pdf2docx/branch/master/graph/badge.svg)](https://codecov.io/gh/dothinking/pdf2docx)
-[![pypi-version](https://img.shields.io/pypi/v/pdf2docx.svg)](https://pypi.python.org/pypi/pdf2docx/)
-![license](https://img.shields.io/pypi/l/pdf2docx.svg)
-![pypi-downloads](https://img.shields.io/pypi/dm/pdf2docx)
+[![codecov](https://codecov.io/gh/dothinking/pdf2docxnogui/branch/master/graph/badge.svg)](https://codecov.io/gh/dothinking/pdf2docxnogui)
+[![pypi-version](https://img.shields.io/pypi/v/pdf2docxnogui.svg)](https://pypi.python.org/pypi/pdf2docxnogui/)
+![license](https://img.shields.io/pypi/l/pdf2docxnogui.svg)
+![pypi-downloads](https://img.shields.io/pypi/dm/pdf2docxnogui)
 
 - Extract data from PDF with `PyMuPDF`, e.g. text, images and drawings 
 - Parse layout with rule, e.g. sections, paragraphs, images and tables
@@ -53,14 +53,14 @@
 
 ## Documentation
 
-- [Installation](https://dothinking.github.io/pdf2docx/installation.html)
-- [Quickstart](https://dothinking.github.io/pdf2docx/quickstart.html)
-    - [Convert PDF](https://dothinking.github.io/pdf2docx/quickstart.convert.html)
-    - [Extract table](https://dothinking.github.io/pdf2docx/quickstart.table.html)
-    - [Command Line Interface](https://dothinking.github.io/pdf2docx/quickstart.cli.html)
-    - [Graphic User Interface](https://dothinking.github.io/pdf2docx/quickstart.gui.html)
-- [Technical Documentation (In Chinese)](https://dothinking.github.io/pdf2docx/techdoc.html)
-- [API Documentation](https://dothinking.github.io/pdf2docx/modules.html)
+- [Installation](https://dothinking.github.io/pdf2docxnogui/installation.html)
+- [Quickstart](https://dothinking.github.io/pdf2docxnogui/quickstart.html)
+    - [Convert PDF](https://dothinking.github.io/pdf2docxnogui/quickstart.convert.html)
+    - [Extract table](https://dothinking.github.io/pdf2docxnogui/quickstart.table.html)
+    - [Command Line Interface](https://dothinking.github.io/pdf2docxnogui/quickstart.cli.html)
+    - [Graphic User Interface](https://dothinking.github.io/pdf2docxnogui/quickstart.gui.html)
+- [Technical Documentation (In Chinese)](https://dothinking.github.io/pdf2docxnogui/techdoc.html)
+- [API Documentation](https://dothinking.github.io/pdf2docxnogui/modules.html)
 
 ## Sample
 

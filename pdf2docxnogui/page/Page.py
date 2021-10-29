@@ -2,25 +2,25 @@
 
 '''Page object parsed with PDF raw dict.
 
-In addition to base structure described in :py:class:`~pdf2docx.page.RawPage`, 
+In addition to base structure described in :py:class:`~pdf2docxnogui.page.RawPage`, 
 some new features, e.g. sections, table block, are also included. 
 Page elements structure:
 
-* :py:class:`~pdf2docx.page.Page` >> :py:class:`~pdf2docx.layout.Section` >> :py:class:`~pdf2docx.layout.Column`  
-    * :py:class:`~pdf2docx.layout.Blocks`
-        * :py:class:`~pdf2docx.text.TextBlock` >> 
-          :py:class:`~pdf2docx.text.Line` >> 
-          :py:class:`~pdf2docx.text.TextSpan` / :py:class:`~pdf2docx.image.ImageSpan` >>
-          :py:class:`~pdf2docx.text.Char`
-        * :py:class:`~pdf2docx.table.TableBlock` >>
-          :py:class:`~pdf2docx.table.Row` >> 
-          :py:class:`~pdf2docx.table.Cell`
-            * :py:class:`~pdf2docx.layout.Blocks`
-            * :py:class:`~pdf2docx.shape.Shapes`
-    * :py:class:`~pdf2docx.shape.Shapes`
-        * :py:class:`~pdf2docx.shape.Shape.Stroke`
-        * :py:class:`~pdf2docx.shape.Shape.Fill`
-        * :py:class:`~pdf2docx.shape.Shape.Hyperlink`
+* :py:class:`~pdf2docxnogui.page.Page` >> :py:class:`~pdf2docxnogui.layout.Section` >> :py:class:`~pdf2docxnogui.layout.Column`  
+    * :py:class:`~pdf2docxnogui.layout.Blocks`
+        * :py:class:`~pdf2docxnogui.text.TextBlock` >> 
+          :py:class:`~pdf2docxnogui.text.Line` >> 
+          :py:class:`~pdf2docxnogui.text.TextSpan` / :py:class:`~pdf2docxnogui.image.ImageSpan` >>
+          :py:class:`~pdf2docxnogui.text.Char`
+        * :py:class:`~pdf2docxnogui.table.TableBlock` >>
+          :py:class:`~pdf2docxnogui.table.Row` >> 
+          :py:class:`~pdf2docxnogui.table.Cell`
+            * :py:class:`~pdf2docxnogui.layout.Blocks`
+            * :py:class:`~pdf2docxnogui.shape.Shapes`
+    * :py:class:`~pdf2docxnogui.shape.Shapes`
+        * :py:class:`~pdf2docxnogui.shape.Shape.Stroke`
+        * :py:class:`~pdf2docxnogui.shape.Shape.Fill`
+        * :py:class:`~pdf2docxnogui.shape.Shape.Hyperlink`
 
 ::
 

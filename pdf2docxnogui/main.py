@@ -5,8 +5,8 @@ import logging
 from .converter import Converter
 
 
-class PDF2DOCX:
-    '''Command line interface for ``pdf2docx``.'''
+class pdf2docxnogui:
+    '''Command line interface for ``pdf2docxnogui``.'''
 
     @staticmethod
     def convert(pdf_file:str, docx_file:str=None, password:str=None, start:int=0, end:int=None, pages:list=None, **kwargs):
@@ -22,7 +22,7 @@ class PDF2DOCX:
             kwargs (dict) : Configuration parameters.
         
         .. note::
-            Refer to :py:meth:`~pdf2docx.converter.Converter.convert` for detailed description on above arguments.
+            Refer to :py:meth:`~pdf2docxnogui.converter.Converter.convert` for detailed description on above arguments.
         '''
         # index starts from zero or one
         if isinstance(pages, int): pages = [pages] # in case --pages=1
@@ -93,12 +93,12 @@ class PDF2DOCX:
 
         return tables
 
-parse = PDF2DOCX.convert
+parse = pdf2docxnogui.convert
 
 
 def main():
     import fire
-    fire.Fire(PDF2DOCX)
+    fire.Fire(pdf2docxnogui)
 
 
 if __name__ == '__main__':

@@ -15,4 +15,4 @@ clean:
 	@for p in $(TARGETDIR) ; do \
 	    if [ -d "$(BUILDDIR)/$$p" ];  then rm -rf "$(BUILDDIR)/$$p" ; fi ; \
 	done
-	@if [ -e modules.rst ];  then rm pdf2docx*.rst ; fi
+	@if [ -e modules.rst ];  then rm pdf2docxnogui*.rst ; fi

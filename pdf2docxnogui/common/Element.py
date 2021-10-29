@@ -3,7 +3,7 @@
 '''Object with a bounding box, e.g. Block, Line, Span.
 
 Based on ``PyMuPDF``, the coordinates (e.g. bbox of ``page.getText('rawdict')``) are generally 
-provided relative to the un-rotated page; while this ``pdf2docx`` library works under real page 
+provided relative to the un-rotated page; while this ``pdf2docxnogui`` library works under real page 
 coordinate system, i.e. with rotation considered. So, any instances created by this Class are 
 always applied a rotation matrix automatically.
 

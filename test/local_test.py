@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-''' local test file for developing, with pdf2docx installed by
+''' local test file for developing, with pdf2docxnogui installed by
     `python setup.py develop`
 '''
 
@@ -9,8 +9,8 @@ import sys
 import shutil
 import fitz
 
-from pdf2docx import Converter
-from pdf2docx.common.Element import Element
+from pdf2docxnogui import Converter
+from pdf2docxnogui.common.Element import Element
 
 script_path = os.path.abspath(__file__) # current script path
 output = os.path.dirname(script_path)

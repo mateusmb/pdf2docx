@@ -1,6 +1,6 @@
 '''Extract fonts properties from PDF.
 
-Font properties like font name, size are covered in :py:class:`~pdf2docx.text.TextSpan`, 
+Font properties like font name, size are covered in :py:class:`~pdf2docxnogui.text.TextSpan`, 
 but more generic properties are required further:
 
 * Font family name. The font name extracted and set in `TextSpan` might not valid when 

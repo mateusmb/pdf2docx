@@ -1,8 +1,8 @@
 Convert PDF
 =======================
 
-We can use either the :py:class:`~pdf2docx.converter.Converter` class, or 
-a wrapped method :py:meth:`~pdf2docx.main.parse` to convert all/specified 
+We can use either the :py:class:`~pdf2docxnogui.converter.Converter` class, or 
+a wrapped method :py:meth:`~pdf2docxnogui.main.parse` to convert all/specified 
 pdf pages to docx. Multi-processing is supported in case pdf file with a
 large number of pages. 
 
@@ -12,7 +12,7 @@ Example 1: convert all pages
 
 ::
 
-  from pdf2docx import Converter
+  from pdf2docxnogui import Converter
 
   pdf_file = '/path/to/sample.pdf'
   docx_file = 'path/to/sample.docx'
@@ -25,7 +25,7 @@ Example 1: convert all pages
 
 An alternative using ``parse`` method::
 
-  from pdf2docx import parse
+  from pdf2docxnogui import parse
 
   pdf_file = '/path/to/sample.pdf'
   docx_file = 'path/to/sample.docx'
@@ -57,7 +57,7 @@ Example 2: convert specified pages
 
 
 .. note::
-  Refer to :py:meth:`~pdf2docx.converter.Converter.convert` for detailed description 
+  Refer to :py:meth:`~pdf2docxnogui.converter.Converter.convert` for detailed description 
   on the input arguments.
 
 

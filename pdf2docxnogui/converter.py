@@ -284,7 +284,7 @@ class Converter:
             pages (list, optional): Range of page indexes. Defaults to None.
             kwargs (dict, optional): Configuration parameters. Defaults to None.
         
-        Refer to :py:meth:`~pdf2docx.converter.Converter.default_settings` for detail of 
+        Refer to :py:meth:`~pdf2docxnogui.converter.Converter.default_settings` for detail of 
         configuration parameters.
         
         .. note::

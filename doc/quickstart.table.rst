@@ -3,7 +3,7 @@ Extract table
 
 ::
 
-    from pdf2docx import Converter
+    from pdf2docxnogui import Converter
 
     pdf_file = '/path/to/sample.pdf'
 

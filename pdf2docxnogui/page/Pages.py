@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-'''Collection of :py:class:`~pdf2docx.page.Page` instances.'''
+'''Collection of :py:class:`~pdf2docxnogui.page.Page` instances.'''
 
 import logging
 from ..common.Collection import BaseCollection

@@ -3,7 +3,7 @@
 '''
 Testing the layouts between sample pdf and the converted docx.
 
-NOTE: pdf2docx should be installed in advance.
+NOTE: pdf2docxnogui should be installed in advance.
 
 The docx is created from parsed layout, so an equivalent but efficient way is to 
 compare parsed layout with banchmark one.
@@ -22,8 +22,8 @@ more link:
 '''
 
 import os
-from pdf2docx import Converter, parse
-from pdf2docx.text.TextSpan import TextSpan
+from pdf2docxnogui import Converter, parse
+from pdf2docxnogui.text.TextSpan import TextSpan
 
 
 script_path = os.path.abspath(__file__) # current script path

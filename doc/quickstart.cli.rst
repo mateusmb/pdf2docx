@@ -3,16 +3,16 @@ Command Line Interface
 
 ::
 
-  $ pdf2docx --help
+  $ pdf2docxnogui --help
 
   NAME
-      pdf2docx - Command line interface for pdf2docx.
+      pdf2docxnogui - Command line interface for pdf2docxnogui.
 
   SYNOPSIS
-      pdf2docx COMMAND | -
+      pdf2docxnogui COMMAND | -
 
   DESCRIPTION
-      Command line interface for pdf2docx.
+      Command line interface for pdf2docxnogui.
 
   COMMANDS
       COMMAND is one of the following:
@@ -39,25 +39,25 @@ Specify pages range by ``--start`` (from the first page if omitted) and
 
 Convert all pages::
 
-  $ pdf2docx convert test.pdf test.docx
+  $ pdf2docxnogui convert test.pdf test.docx
 
 Convert pages from the second to the end::
 
-  $ pdf2docx convert test.pdf test.docx --start=1
+  $ pdf2docxnogui convert test.pdf test.docx --start=1
 
 
 Convert pages from the first to the third (index=2)::
 
-  $ pdf2docx convert test.pdf test.docx --end=3
+  $ pdf2docxnogui convert test.pdf test.docx --end=3
 
 
 Convert second and third pages::
 
-  $ pdf2docx convert test.pdf test.docx --start=1 --end=3
+  $ pdf2docxnogui convert test.pdf test.docx --start=1 --end=3
 
 Convert the first and second pages with zero-based index turn off::
 
-  $ pdf2docx convert test.pdf test.docx --start=1 --end=3 --zero_based_index=False
+  $ pdf2docxnogui convert test.pdf test.docx --start=1 --end=3 --zero_based_index=False
 
 
 
@@ -66,7 +66,7 @@ By page numbers
 
 Convert the first, third and 5th pages::
 
-  $ pdf2docx convert test.pdf test.docx --pages=0,2,4
+  $ pdf2docxnogui convert test.pdf test.docx --pages=0,2,4
 
 
 Multi-Processing
@@ -74,8 +74,8 @@ Multi-Processing
 
 Turn on multi-processing with default count of CPU::
 
-  $ pdf2docx convert test.pdf test.docx --multi_processing=True
+  $ pdf2docxnogui convert test.pdf test.docx --multi_processing=True
 
 Specify the count of CPUs::
 
-  $ pdf2docx convert test.pdf test.docx --multi_processing=True --cpu_count=4
+  $ pdf2docxnogui convert test.pdf test.docx --multi_processing=True --cpu_count=4

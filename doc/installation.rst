@@ -1,20 +1,20 @@
 Installation
 ====================
 
-``pdf2docx`` can be installed from either Pypi or the source code.
+``pdf2docxnogui`` can be installed from either Pypi or the source code.
 
 
 From Pypi
 ----------------
 ::
 
-  $ pip install pdf2docx
+  $ pip install pdf2docxnogui
 
 
 From source code
 -------------------
 
-Clone or download `pdf2docx <https://github.com/dothinking/pdf2docx>`_, and navigate to the root directory::
+Clone or download `pdf2docxnogui <https://github.com/dothinking/pdf2docxnogui>`_, and navigate to the root directory::
 
   $ python setup.py install 
 
@@ -27,4 +27,4 @@ Uninstall
 
 ::
 
-  $ pip uninstall pdf2docx
+  $ pip uninstall pdf2docxnogui

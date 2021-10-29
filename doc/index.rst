@@ -1,7 +1,7 @@
-Welcome to pdf2docx's documentation!
+Welcome to pdf2docxnogui's documentation!
 ====================================
 
-`pdf2docx <https://github.com/dothinking/pdf2docx>`_ is a Python library 
+`pdf2docxnogui <https://github.com/dothinking/pdf2docxnogui>`_ is a Python library 
 to extract data from PDF with ``PyMuPDF``, parse layout with rule, and 
 generate docx file with ``python-docx``.
 

@@ -1,4 +1,4 @@
-name: pdf2docx-doc
+name: pdf2docxnogui-doc
 
 on:
   push:

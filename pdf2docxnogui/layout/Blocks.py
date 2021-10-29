@@ -538,7 +538,7 @@ class Blocks(ElementCollection):
 
                 # NOTE: within a cell, there is always an empty paragraph after table,
                 # so, delete it right here.
-                # https://github.com/dothinking/pdf2docx/issues/76 
+                # https://github.com/dothinking/pdf2docxnogui/issues/76 
                 if cell_layout:
                     delete_paragraph(doc.paragraphs[-1])
        

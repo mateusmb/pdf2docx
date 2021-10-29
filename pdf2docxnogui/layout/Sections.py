@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-'''Collection of :py:class:`~pdf2docx.layout.Section` instances.
+'''Collection of :py:class:`~pdf2docxnogui.layout.Section` instances.
 '''
 
 from docx.enum.section import WD_SECTION
